@@ -10,11 +10,15 @@ const Banner = () => {
             <section>
                 <div className="carousel w-full h-[90vh]">
                     <div id="item1" className="carousel-item w-full relative">
-                        <div className="absolute text-white h-full w-full bg-gradient-to-l from-transparent to-black">
-                            <h1 className="text-5xl w-96">Affordable <br /> Price For Car <br /> Servicing</h1>
+                        <div className="absolute text-white h-full w-full bg-gradient-to-l from-transparent to-black pl-10 pt-10">
+                            <h1 className="text-5xl w-96 mb-5">Affordable <br /> Price For Car <br /> Servicing</h1>
                             <p className="w-1/2">
-                            There are many variations of passages of  available, but the majority have suffered alteration in some form
+                            There are many variations of passages of  available, but <br /> the majority have suffered alteration in some form
                             </p>
+                            <div className="mt-10 flex gap-x-5">
+                                <button className="border font-medium border-gray-300 px-4 py-2 hover:rounded-lg bg-orange-500 hover:bg-transparent">Discover More</button>
+                                <button className="border font-medium border-gray-300 px-4 py-2 hover:rounded-lg bg-transparent hover:bg-orange-500">Latest Projects</button>
+                            </div>
                         </div>
                         <img
                         src={bannerImg1}
